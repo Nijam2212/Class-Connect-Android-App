@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:text="Student Name"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnViewFile"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="View Submission"
+        android:textColor="@android:color/darker_gray"
+        android:backgroundTint="@android:color/transparent" />
+</LinearLayout>
